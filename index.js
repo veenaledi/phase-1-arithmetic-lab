@@ -1,20 +1,17 @@
-
 // Write your code here
 // Define the variables
 // Define the variables
-const num1 = 31;
-const num2 = 2;
-const multiply = num1 * num2;
-console.log(multiply); 
+let num1 = 31;
+let num2 = 2;
+let multiply = num1 * num2;
 
-const random = Math.floor(Math.random() * Number.MAX_SAFE_INTEGER) + 1;
-console.log(random)
+let random = Math.floor(Math.random() * 100) + 1;
 
-const num3 = 14
-const num4 = 5
-const mod = (num3 % num4) == 4
-console.log(mod)
+let num3 = 10;
+let num4 = 6;
+let mod = num3 % num4; 
 
-const numberSet = (5, 10, 15, 20, 19, 2)
-const max = math.max(numberSet)
-console.log(max)
+const numbers = new Set([5, 10, 3, 15, 2, 20]);
+let max = Math.max(...numbers);
+max = max === 20 ? 20 : max;
+console.log(max);
